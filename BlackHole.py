@@ -3,7 +3,6 @@ from panda3d.core import *
 from direct.task import Task
 import math
 import random
-
 class BlackHoleApp(ShowBase):
     def __init__(self):
         ShowBase.__init__(self)
@@ -288,4 +287,3 @@ class BlackHoleApp(ShowBase):
 
 app = BlackHoleApp()
 app.run()
-
